@@ -1,5 +1,3 @@
 {
-  "app_list": {
-    "wsa": {}
-  }
+  "pkg_manifest_urls": "https://raw.githubusercontent.com/SD-Data-storage/SDAppStore-Library/refs/heads/main/packages/{id}/manifest.json"
 }
