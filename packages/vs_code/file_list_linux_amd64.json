@@ -1,6 +1,9 @@
 {
     "files": {
-      "url": "https://code.visualstudio.com/sha/download?build=stable&os=linux-x64",
-      "type": "zip"
+      ".zip_vscode": {
+          "extract_dir": "vscode",
+          "url": "https://code.visualstudio.com/sha/download?build=stable&os=linux-x64",
+          "type": "zip"
+      }
     }
 }
