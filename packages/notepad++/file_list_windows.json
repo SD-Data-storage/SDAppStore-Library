@@ -5,7 +5,7 @@
       "type": "file"
     },
     "PATH/notepadpp.bat": {
-      "url": "https://github.com/SD-Data-storage/SDPkg-Library/raw/refs/heads/main/packages/notepad++/PATH/notepadpp.bat",
+      "url": "https://github.com/SD-Data-storage/SDPkg-Library/raw/refs/heads/main/packages/notepad++/PATH_windows/notepadpp.bat",
       "type": "file"
     }
   }
