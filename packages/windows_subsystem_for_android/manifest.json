@@ -1,8 +1,8 @@
 {
     "file_info": {
         "windows": {
-          "amd64": "https://github.com/SD-Data-storage/SDAppStore-Library/raw/refs/heads/main/packages/windows_subsystem_for_android/file_list_MicrosoftCorporationII.WindowsSubsystemForAndroid_2407.40000.4.0_neutral_8wekyb3d8bbwe.Msixbundle.json",
-          "arm64": "https://github.com/SD-Data-storage/SDAppStore-Library/raw/refs/heads/main/packages/windows_subsystem_for_android/file_list_MicrosoftCorporationII.WindowsSubsystemForAndroid_2407.40000.4.0_neutral_8wekyb3d8bbwe.Msixbundle.json"
+          "amd64": "https://github.com/SD-Data-storage/SDPkg-Library/raw/refs/heads/main/packages/windows_subsystem_for_android/file_list_MicrosoftCorporationII.WindowsSubsystemForAndroid_2407.40000.4.0_neutral_8wekyb3d8bbwe.Msixbundle.json",
+          "arm64": "https://github.com/SD-Data-storage/SDPkg-Library/raw/refs/heads/main/packages/windows_subsystem_for_android/file_list_MicrosoftCorporationII.WindowsSubsystemForAndroid_2407.40000.4.0_neutral_8wekyb3d8bbwe.Msixbundle.json"
         }
     }
 }
