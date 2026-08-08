@@ -3,6 +3,10 @@
     "install.py": {
       "url": "https://github.com/SD-Data-storage/SDPkg-Library/raw/refs/heads/main/packages/7-zip/install.py",
       "type": "file"
+    },
+    "PATH/7z.bat": {
+      "url": "https://github.com/SD-Data-storage/SDPkg-Library/raw/refs/heads/main/packages/7-zip/PATH_windows/7z.bat",
+      "type": "file"
     }
   }
 }
