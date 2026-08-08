@@ -1,13 +1,13 @@
 {
     "file_info": {
         "windows": {
-          "amd64": "https://github.com/SD-Data-storage/SDAppStore-Library/raw/refs/heads/main/packages/vs_code/file_list_windows_amd64.json",
-          "arm64": "https://github.com/SD-Data-storage/SDAppStore-Library/raw/refs/heads/main/packages/vs_code/file_list_windows_arm64.json"
+          "amd64": "https://github.com/SD-Data-storage/SDPkg-Library/raw/refs/heads/main/packages/vs_code/file_list_windows_amd64.json",
+          "arm64": "https://github.com/SD-Data-storage/SDPkg-Library/raw/refs/heads/main/packages/vs_code/file_list_windows_arm64.json"
         },
         "linux": {
-          "amd64": "https://github.com/SD-Data-storage/SDAppStore-Library/raw/refs/heads/main/packages/vs_code/file_list_linux_amd64.json",
-          "arm64": "https://github.com/SD-Data-storage/SDAppStore-Library/raw/refs/heads/main/packages/vs_code/file_list_linux_arm64.json",
-          "arm32": "https://github.com/SD-Data-storage/SDAppStore-Library/raw/refs/heads/main/packages/vs_code/file_list_linux_arm32.json"
+          "amd64": "https://github.com/SD-Data-storage/SDPkg-Library/raw/refs/heads/main/packages/vs_code/file_list_linux_amd64.json",
+          "arm64": "https://github.com/SD-Data-storage/SDPkg-Library/raw/refs/heads/main/packages/vs_code/file_list_linux_arm64.json",
+          "arm32": "https://github.com/SD-Data-storage/SDPkg-Library/raw/refs/heads/main/packages/vs_code/file_list_linux_arm32.json"
         }
     }
 }
