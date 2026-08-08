@@ -6,7 +6,7 @@ import tempfile
 from pathlib import Path
 import sys
 
-SEVEN_ZIP = r"D:\Programs\7-Zip\7z.exe"
+SEVEN_ZIP = os.path.join(os.path.dirname(os.path.dirname(__file__)), "7-zip", "7zip", "iles", "7-Zip", "7z.exe") #r"D:\Programs\7-Zip\7z.exe"
 
 _GUID_RE = re.compile(
     r"^\{[0-9A-Fa-f]{8}-"
