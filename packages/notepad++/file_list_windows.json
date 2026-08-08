@@ -1,0 +1,8 @@
+{
+  "files": {
+    "install.py": {
+      "url": "https://github.com/SD-Data-storage/SDPkg-Library/raw/refs/heads/main/packages/notepad++/install_windows.py",
+      "type": "file"
+    }
+  }
+}
