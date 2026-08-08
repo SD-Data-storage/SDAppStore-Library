@@ -2,12 +2,16 @@ import os
 import platform
 import re
 import urllib.request
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+from sdpkg import download_file, fetch_contents, extract_zip
 
 
 DOWNLOAD_PAGE = "https://www.videolan.org/vlc/download-windows.html"
 
 
 def main():
+    app_dir = os.path.dirname(__file__)
     # Determine Windows architecture
     machine = platform.machine().lower()
 
@@ -21,13 +25,7 @@ def main():
         raise RuntimeError(f"Unsupported Windows architecture: {machine}")
 
     # Fetch official VideoLAN download page
-    request = urllib.request.Request(
-        DOWNLOAD_PAGE,
-        headers={"User-Agent": "SDPkg"}
-    )
-
-    with urllib.request.urlopen(request) as response:
-        html = response.read().decode("utf-8")
+    html = fetch_contents(DOWNLOAD_PAGE)
 
     # Find the ZIP corresponding to this architecture.
     pattern = (
@@ -49,16 +47,19 @@ def main():
         url = "https:" + url
 
     filename = os.path.basename(url)
-    destination = os.path.join(os.getcwd(), filename)
+    destination = os.path.join(app_dir, filename)
 
     print(f"Detected architecture: {platform_name}")
     print(f"Download URL: {url}")
     print(f"Downloading to: {destination}")
 
-    urllib.request.urlretrieve(url, destination)
+    download_file(url, destination)
 
     print("Download complete.")
-
+    print("Extracting VLC media player...")
+    vlc_dir = os.path.join(app_dir, "vlc_media_player")
+    extract_zip(destination, vlc_dir)
+    print("Extraction complete!")
 
 if __name__ == "__main__":
     main()
