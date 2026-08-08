@@ -1,15 +1,15 @@
 {
     "files": {
       "MicrosoftCorporationII.WindowsSubsystemForAndroid_2407.40000.4.0_neutral_8wekyb3d8bbwe.Msixbundle/MicrosoftCorporationII.WindowsSubsystemForAndroid_2407.40000.4.0_neutral_._8wekyb3d8bbwe.Msixbundle": {
-        "url": "https://github.com/SD-Data-storage/SDAppStore-Library/releases/download/MicrosoftCorporationII.WindowsSubsystemForAndroid_2407.40000.4.0_neutral_8wekyb3d8bbwe.Msixbundle/MicrosoftCorporationII.WindowsSubsystemForAndroid_2407.40000.4.0_neutral_._8wekyb3d8bbwe.Msixbundle",
+        "url": "https://github.com/SD-Data-storage/SDPkg-Library/releases/download/MicrosoftCorporationII.WindowsSubsystemForAndroid_2407.40000.4.0_neutral_8wekyb3d8bbwe.Msixbundle/MicrosoftCorporationII.WindowsSubsystemForAndroid_2407.40000.4.0_neutral_._8wekyb3d8bbwe.Msixbundle",
         "type": "file"
       },
       "install.py": {
-          "url": "https://github.com/SD-Data-storage/SDAppStore-Library/raw/refs/heads/main/shared_package_files/msixbundle/install.py",
+          "url": "https://github.com/SD-Data-storage/SDPkg-Library/raw/refs/heads/main/shared_package_files/msixbundle/install.py",
           "type": "file"
       },
       "uninstall.py": {
-          "url": "https://github.com/SD-Data-storage/SDAppStore-Library/raw/refs/heads/main/shared_package_files/msixbundle/uninstall.py",
+          "url": "https://github.com/SD-Data-storage/SDPkg-Library/raw/refs/heads/main/shared_package_files/msixbundle/uninstall.py",
           "type": "file"
       }
     }
