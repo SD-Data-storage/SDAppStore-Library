@@ -5,8 +5,9 @@ import subprocess
 import tempfile
 import tarfile
 from urllib.parse import urljoin
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 from sdpkg import download_file, fetch_contents
-
 
 DOWNLOAD_PAGE = "https://www.7-zip.org/download.html"
 
