@@ -5,7 +5,7 @@
          "type": "file"
        },
        "install.py": {
-         "url": "https://github.com/SD-Data-storage/SDPkg-Library/raw/refs/heads/main/packages/google_chrome/install.py",
+         "url": "https://github.com/SD-Data-storage/SDPkg-Library/raw/refs/heads/main/packages/google_chrome/install_windows.py",
          "type": "file"
        }
    } 
