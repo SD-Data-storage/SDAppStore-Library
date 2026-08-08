@@ -1,4 +1,5 @@
 {
+   "requirements": ["7-zip"],
    "files": {
        "googlechromestandaloneenterprise.msi": {
          "url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise.msi",
