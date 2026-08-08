@@ -1,0 +1,12 @@
+{
+   "files": {
+       "googlechromestandaloneenterprise.msi": {
+         "url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise.msi",
+         "type": "file"
+       },
+       "install.py": {
+         "url": "https://github.com/SD-Data-storage/SDPkg-Library/raw/refs/heads/main/packages/google_chrome/install.py",
+         "type": "file"
+       }
+   } 
+}
